@@ -7,16 +7,13 @@ namespace PackageDelivery
         {
             Calculations c1 = new Calculations();
             Console.WriteLine("Please enter the weight of your package in kg: ");
-            c1.Weight=Console.ReadLine();
+            c1.Weight=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter the height of your package in cm: ");
-            c1.Height=Console.ReadLine();
+            c1.Height=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter the length of your package in cm: ");
-            c1.Length=Console.ReadLine();
+            c1.Length=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter the width of your package in cm: ");
-            c1.Width=Console.ReadLine();
+            c1.Width=Convert.ToInt32(Console.ReadLine());
         }
     }
-}
-
-
-    
+} 
