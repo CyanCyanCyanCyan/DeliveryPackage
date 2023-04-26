@@ -14,4 +14,20 @@ public class Calculations
 		_length=length;
 		_width=width;
 	}
+	public double Weight
+	{
+
+	}
+	public double Height
+	{
+
+	}
+	public double Length
+	{
+
+	}
+	public double Width
+	{
+
+	}
 }
