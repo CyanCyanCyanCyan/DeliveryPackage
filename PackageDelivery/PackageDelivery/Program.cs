@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 namespace PackageDelivery 
-{ 
+{
     class Program 
     {
         public static void Main(string[] args)
@@ -16,4 +16,4 @@ namespace PackageDelivery
             c1.Width=Convert.ToInt32(Console.ReadLine());
         }
     }
-} 
+}
