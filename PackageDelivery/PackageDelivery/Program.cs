@@ -14,6 +14,7 @@ namespace PackageDelivery
             c1.Length=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter the width of your package in cm: ");
             c1.Width=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(c1);
         }
     }
 }
