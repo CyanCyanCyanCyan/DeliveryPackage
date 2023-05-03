@@ -19,22 +19,22 @@ namespace PackageDelivery
             {
                 if(c1.Volume>100000)
                 {
-                    Console.WriteLine("Too big, and too heavy.");
+                    Console.WriteLine("Your package is too big, and too heavy.");
                 }
                 else
                 {
-                    Console.WriteLine("Too heavy, but not too big.");
+                    Console.WriteLine("Your package is too heavy, but not too big.");
                 }
             }
             else
             {
                 if(c1.Volume>100000)
                 {
-                    Console.WriteLine("Too big, but not too heavy.");
+                    Console.WriteLine("Your package is too big, but not too heavy.");
                 }
                 else
                 {
-                    Console.WriteLine("Good to go.");
+                    Console.WriteLine("Your package is good to go.");
                 }
             }
         }
