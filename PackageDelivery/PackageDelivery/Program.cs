@@ -15,6 +15,14 @@ namespace PackageDelivery
             Console.WriteLine("Please enter the width of your package in cm: ");
             c1.Width=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(c1.Description);
+            if(c1.Weight>29.9)
+            {
+                Console.WriteLine("Too heavy.");
+            }
+            else
+            {
+                if()
+            }
         }
     }
 }

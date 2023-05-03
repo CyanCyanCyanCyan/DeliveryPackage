@@ -8,12 +8,13 @@ public class Calculations
 	private double _width;
 	private double _volume=_height*_length*_width;
 	
-	public Calculations(double weight, double height, double length, double width)
+	public Calculations(double weight, double height, double length, double width, double _volume)
 	{
 		_weight=weight;
 		_height=height;
 		_length=length;
 		_width=width;
+		_volume=volume;
 	}
 	public double Weight
 	{
