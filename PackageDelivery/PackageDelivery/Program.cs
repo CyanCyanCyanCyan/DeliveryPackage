@@ -17,11 +17,25 @@ namespace PackageDelivery
             Console.WriteLine(c1.Description);
             if(c1.Weight>29.9)
             {
-                Console.WriteLine("Too heavy.");
+                if(c1.Volume>100000)
+                {
+                    Console.WriteLine("Too big, and too heavy.");
+                }
+                else
+                {
+                    Console.WriteLine("Too heavy, but not too big.");
+                }
             }
             else
             {
-                if()
+                if(c1.Volume>100000)
+                {
+                    Console.WriteLine("Too big, but not too heavy.");
+                }
+                else
+                {
+                    Console.WriteLine("Good to go.");
+                }
             }
         }
     }

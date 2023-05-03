@@ -32,6 +32,10 @@ public class Calculations
 	{
 		get=>_width;
 	}
+	public double Volume
+	{
+		get=>_volume;
+	}
 	public string Description
 	{
 		get=>$"The weight is {Weight}kg. The height is {Height}cm. The length is {Length}cm. The width is {Width}cm.";
