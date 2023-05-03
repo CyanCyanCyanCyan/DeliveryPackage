@@ -36,6 +36,6 @@ public class Calculations
 	}
 	public string Description
 	{
-		get=>$"The weight is {Weight}kg. The height is {Height}cm. The length is {Length}cm. The width is {Width}cm.";
+		get=>$"The weight is {Weight}kg. The height is {Height}cm. The length is {Length}cm. The width is {Width}cm. The volume is {Volume}cm³";
 	}
 }
