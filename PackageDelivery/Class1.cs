@@ -6,7 +6,6 @@ public class Calculations
 	private double _length;
 	private double _width;
 	private double _volume=_height*_length*_width;
-	
 	public Calculations(double weight, double height, double length, double width, double _volume)
 	{
 		_weight=weight;
