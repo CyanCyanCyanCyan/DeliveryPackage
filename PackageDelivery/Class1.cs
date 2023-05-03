@@ -1,5 +1,4 @@
 ﻿using System;
-
 public class Calculations
 {
 	private double _weight;
